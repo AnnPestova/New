@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>STUD_FILES</title>
+</head>
+<body>
+<div class="nav-container">
+    <nav class="navbar">
+        <h1 id="navbar-logo">STUD_FILES</h1>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home" class="nav-links">Главная</a></li>
+            <li><a href="#" class="nav-links nav-links-btn" id="reg">Здравствуйте, Анна</a></li>
+            <li><a href="index.html" class="nav-links nav-links-btn2">Выход</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div class="main">
+    <div class="main-container">
+        <div class="main-content">
+            <h1>
+                Вперед к знаниям
+            </h1>
+            <p>
+                Платформа STUD FILES поможет быстро найти необходимые учебные материалы других пользователей и загрузить свои
+            </p>
+            <button class="main-btn">
+                <a href="#">
+                    Поехали
+                </a>
+            </button>
+        </div>
+        <div class="main-img-container">
+            <img src="images/pic1.svg" alt="" id="main-img">
+        </div>
+    </div>
+</div>
+
+
+<!-- add_post -->
+<div class="modal3" id="4email-modal">
+    <div class="modal3-content">
+        <span  class="close-btn3" style="position: absolute;top: 2%;right: 3%;font-size: 1.5rem;z-index: 1;">&times;</span>
+        <div class="modal3-content-left">
+            <img id="Modal3-img" src="images/pic4.svg" alt="">
+        </div>
+        <div class="modal3-content-right">
+            <form action="/" method="GET" class="modal3-form" id="form">
+                <h2>
+                    Добавьте пост уже сейчас
+                </h2>
+                <div class="form-validation3">
+                    <input type="text" class="modal3-input" id="text" name="text" placeholder="Название" required minlength="3" maxlength="20">
+                </div>
+                <div class="form-validation2">
+                    <textarea class="modal3-input" id="textarea" name="textarea" placeholder="Описание" required minlength="10" maxlength="150"></textarea>
+                </div>
+                <div class="example-1">
+                    <div class="form-group">
+                        <label class="label">
+                            <i class="material-icons">attach_file</i>
+                            <span class="title" style="font-size: 15px; ">Добавить файл</span>
+                            <input type="file">
+                        </label>
+                     </div>
+                </div>
+                <button type="submit" class="modal3-input-btn" id="submit">Добавить</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Cards -->
+<div class="services1" id="services">
+    <h1>Доступные файлы</h1>
+    <button class="btn-services2" style="color: white;">Добавить пост</button>
+    <div class="services_wrapper1">
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+        <div class="services1_card">
+            <h2>Название</h2>
+            <p>Дата добавления</p>
+            <div class="services1_btn"><button><a href="index2.html">Показать</a></button></div>
+        </div>
+    </div>
+    <button class="btn-services1"><a href="#">Показать ещё</a></button>
+</div>
+
+
+<!-- Footer -->
+<div class="footer_container">
+    <section class="social_media">
+        <div class="social_media-wrap">
+            <div class="footer_logo">
+                <a href="#" id="footer_logo">STUD_FILES</a>
+            </div>
+            <p class="website_right">Ⓒ STUD_FILES 2021. Все права защищены.</p>
+            <div class="social_icons">
+                <a href="/" class="social_icon-link" target="_blank"><i class='fab fa-facebook-f'></i></a>
+                <a href="/" class="social_icon-link"><i class='fab fa-instagram f-10x'></i></a>
+                <a href="/" class="social_icon-link"><i class="far fa-envelope" style="color: white;font-size: 35px"></i></a>
+            </div>
+        </div>
+    </section>
+</div>
+
+<script src="js/app2.js">
+</script>
+</body>
+</html>
